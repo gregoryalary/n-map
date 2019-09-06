@@ -1,9 +1,0 @@
-```typescript
-nmap<number>(2).bind([
-  (elt: number): number  => elt - 1,
-  (elt: number): number  => elt + 1
-]).map([1, 2, 3]); // Will return [
-                   //   [0, 1, 2],
-                   //   [2, 3, 4]
-                   // ]
-```
