@@ -4,7 +4,7 @@
 
 ## Install
 
-`npm install --save n-map`
+`npm install @~gregoryalary/n-map --save`
 
 ## Example
 
