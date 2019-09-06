@@ -1,5 +1,5 @@
 {
-  "name": "n-map",
+  "name": "@~gregoryalary/n-map",
   "version": "0.0.1",
   "description": "Map an array to n new arrays",
   "main": "dist/index.js",
