@@ -1,6 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function plus(n) {
-    return n + 1;
+var nmapper_class_1 = require("./lib/nmapper.class");
+/**
+ * Return a mapper that will map an array into n other arrays
+ * @param n the number of array in the result
+ */
+function nmap(n) {
+    return new nmapper_class_1.Nmapper(n);
 }
-exports.plus = plus;
+exports.nmap = nmap;
