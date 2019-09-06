@@ -4,7 +4,13 @@
 
 ## Install
 
+#### npm
+
 `npm install @~gregoryalary/n-map --save`
+
+#### yarn
+
+`yarn add @~gregoryalary/n-map`
 
 ## Example
 

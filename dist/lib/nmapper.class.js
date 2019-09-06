@@ -36,7 +36,7 @@ var BindedNmapper = /** @class */ (function (_super) {
         _this.callbacks = [];
         if (!callbacks || callbacks.length !== _this.count) {
             throw new Error('Can\'t bind the callbacks array to the current Nmapper object.' +
-                'Maybe the length differ from the size parameter of the object');
+                'Maybe the length differs from the size parameter of the object');
         }
         _this.callbacks = callbacks;
         return _this;

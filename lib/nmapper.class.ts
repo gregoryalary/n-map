@@ -27,7 +27,7 @@ class BindedNmapper<T> extends Nmapper<T> {
         if (!callbacks || callbacks.length !== this.count) {
             throw new Error(
                 'Can\'t bind the callbacks array to the current Nmapper object.' +
-                'Maybe the length differ from the size parameter of the object');
+                'Maybe the length differs from the size parameter of the object');
         }
         this.callbacks = callbacks;
     }
