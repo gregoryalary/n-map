@@ -1,6 +1,6 @@
 # n-map
 
-`n-map` is a simple Javascript / Typescript library that map an array to several other arrays.
+`n-map` is a simple Javascript / Typescript library yo map an array to multiple other arrays.
 
 ## Install
 

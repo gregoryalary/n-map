@@ -1,12 +1,12 @@
 {
   "name": "@~gregoryalary/n-map",
   "version": "0.0.2",
-  "description": "Map an array to n new arrays",
+  "description": "Map an array to multiple arrays",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc --target es5"
   },
   "author": "Grégory Alary",
   "license": "UNLICENSED",
